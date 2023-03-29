@@ -1,0 +1,29 @@
+img.Banner{
+    display: block;
+    width: 1080px;
+    height: 300px;
+    padding-left: 700px;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div.thumbs {
+    display: block;
+    width: 100%;
+    margin-left: 1050px;
+}
+
+.slider img{
+    width: 50%;
+    height:300px;
+    margin-left: 1050px;
+
+}

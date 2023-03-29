@@ -1,0 +1,44 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+    <link href="CSS/lightbox.css" rel="stylesheet">
+    <link href="CSS/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="JS/lightbox.js"></script>
+
+  <title>Guardians Of The Galaxy</title>
+</head>
+<body>
+    <div class="header">  
+        <img class="Banner" src="guardians-of-the-galaxy-banner.png" alt="banner"/>
+    </div>
+
+    <div class="slider">
+        <div><img src="Images/Slider/baby_groot.png" alt="BabyGroot"/></div>
+        <div><img src="Images/Slider/group.jpg" alt="Group"/></div>
+        <div><img src="Images/Slider/mantris.JPG" alt="Mantris"/></div>
+        <div><img src="Images/Slider/yondu-groot.jpg" alt="Yondu"/></div>
+    </div>
+
+    <h2>Main Characters</h2>
+    <div class="thumbs">
+        <a href="Images/Drax.png" data-lightbox="Galaxy" data-title="Drax"><img src="Images/Drax_tn.jpg" alt="Drax"> </a>
+        <a href="Images/Groot.jpg" data-lightbox="Galaxy" data-title="Groot"><img src="Images/Groot_tn.jpg" alt="Groot"></a>
+        <a href="Images/StarLord.jpg" data-lightbox="Galaxy" data-title="StarLord"><img src="Images/StarLord_tn.jpg" alt="Starlord"></a>
+        <a href="Images/Gamora.jpg" data-lightbox="Galaxy" data-title="Gamora"><img src="Images/Gamora_tn.jpg" alt="Gamora"></a>
+        <a href="Images/Rocket.jpg" data-lightbox="Galaxy" data-title="Rocket"><img src="Images/Rocket_tn.jpg" alt="Rocket"></a>
+    </div>
+</body>
+
+<script>
+$(document).ready(function(){
+        $('.slider').bxSlider();
+        //load up events
+    });
+</script>
+    
+</html>
+
